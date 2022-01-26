@@ -230,7 +230,13 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
 17. To ignore a file while testing/ammending/pushpull/server par bhejna and lana to save data and make process faster
-        
+        touch .gitignore
+        git add -A
+        (Now the file names you enter in this .gitignore created will be ignored by the status!!!)
+        examplr:
+        you opened .gitignore file in this folder
+        you wrote there hi.html
+        now whatever modifications are made or not made everything will be ignored in git status
         
 
 
