@@ -238,10 +238,13 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         you wrote there hi.html
         now whatever modifications are made or not made everything will be ignored in git status
         
+        1. hello.log    //ignores all the hello.log named files in the entire depository(file)
+        2. /hello.log   //ignores hello.log files only in the file where .gitignore is present!
+        3. *.log        //ignored ALL the files with extension .log
 
 
 
-
+  
 
 
 
