@@ -92,7 +92,7 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modify/make changes)--->MODIFIED---(stage again)---->STAGED----(commit)---->UNMODIFIED
 
 
-1. To Stage a file/Add a file command:
+1. To Stage a file/Track a file command:
         git add index.html
 
 2. To check Status 
@@ -109,7 +109,7 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
                         Press Esc
                         Type ":wq" in the INSERT section 
 
-4. To create blank files
+4. To create a new file
         touch hello.html
 
 5. To add ALL files in the staging area AT ONCE:
@@ -188,11 +188,6 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         
 
 14. To delete a file commited
-        
-        touch waste.html
-        git add -A
-        git commit -a -m "Adding Waste"
-
         git rm name.exe                         //removes file totally from working directory and git's staging area
         git rm --cached name.exe                //Brings file from Staged area to Untracked area, so now you have to stage and commit this file again
 
@@ -205,7 +200,8 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 green M = shows MODIFIED + just staged files
                 red M   = shows MODIFIED + unstaged files
                 green D = recently deleted file (deleted using rm)
-
+                red ??  = for untracked files
+17. To 
 
 
 
