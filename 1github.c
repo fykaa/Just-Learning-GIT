@@ -154,12 +154,17 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         
     TO ESCAPE FROM THIS LOG PAGE PRESS q
 
+11. To check changes in the UNSTAGED file
+        git diff
 
-            
-
-
-
-
+        EXAMPLE:
+            (i added "mickey mouse is my favourite" on a new line)
+            wrote git diff on the terminal
+            it showed me 
+                -                                           
+                +mickey mouse is my favourite
+        IF YOU STAGE THE FILE(even without commit) git diff won't show anything
+        because this command shows CHANGES IN UNSTAGED FILES
 
 
 
