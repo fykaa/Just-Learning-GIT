@@ -89,12 +89,6 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
         and firse use commit karna padega
 
 
-
-
-
-
-
-
 UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modify/make changes)--->MODIFIED---(stage again)---->STAGED----(commit)---->UNMODIFIED
 
 
@@ -152,7 +146,14 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                         hello im the comment
         git log -p -5
             so this shows you only last 5 edit logs
-            
+            HERE IT also SHOWS MORE INFORMATION OF CHANGES IN THE COMMIT
+            like 
+                text removed
+                text added
+                text pasted
+        
+    TO ESCAPE FROM THIS LOG PAGE PRESS q
+
 
             
 
