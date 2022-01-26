@@ -108,9 +108,9 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 
 3. To commit command:
         git commit
-        (now a vib editor will be opened)
+        (now a vim editor will be opened)
         type- Initial commit                    //this is a message i've given this change source, 
-        To exit this vib editor-       
+        To exit this vim editor-       
                         Press Esc
                         Type ":wq" in the INSERT section 
 
@@ -121,11 +121,13 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
         git add -A
 
 
-Now if you edit any of these tracked files the git status will show it under "MODIFIED: file"
-hence a modified file needs to be staged and committed again!
+Now if you edit any of these tracked files, the git status will show it under "MODIFIED: file"
+hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
-6. 
+6. Shortcut to Commit (instead of using esc :wq):
+        git commit -m "Added more htmls"
+        (this can be used after initial commit)
 
 
 
