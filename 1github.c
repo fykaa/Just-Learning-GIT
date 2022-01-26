@@ -177,9 +177,10 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                         Staged file                     : kaam ko stage kardo agar you feel itna kaam hogya hai
                         Commited file                   : commit only if you're totally sure poora kaam khatam hogaya
 
-                ptr: After committing there's no way back, 
+                ptr: After committing there's no way back, you can only check logs using git log
                 ptr: After staging you can still retrieve committed edit using git checkout command
-                
+                ptr: You can checkout an Unstaged/ Modified files to previous edit
+                ptr: You cannot checkout an Staged file to previous edit
         
 
 
