@@ -204,7 +204,7 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 shows data as:
                 green M = shows MODIFIED + just staged files
                 red M   = shows MODIFIED + unstaged files
-                
+                green D = recently deleted file (deleted using rm)
 
 
 
