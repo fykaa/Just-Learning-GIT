@@ -130,7 +130,10 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         (this can be used after initial commit)
 
 
+7. To clear the terminal
+        clear
 
+8. 
 
 
 
