@@ -133,12 +133,10 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 7. To clear the terminal
         clear
 
-8. 
-
-
-
-
-
+8. To recover last edit
+        git checkout
+        (this will match your working directory ko last commit)
+        
 
 
 
