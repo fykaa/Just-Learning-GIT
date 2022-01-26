@@ -201,7 +201,10 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 16. To get status of ONLY MODIFIED FILE (insimplified form)
         get status -s
-
+                shows data as:
+                green M = shows MODIFIED + just staged files
+                red M   = shows MODIFIED + unstaged files
+                
 
 
 
