@@ -67,6 +67,7 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 
 2. Staging area 
         -THIS IS MAIDAAN
+        -Staging area (pose mein khade hona), Commit hona(snapshot /photo khich jana)
         - yaha vo cheezein daalte hai jo COMMIT hojayega
                 - like we'll commit "index.html"
         Lets say you worked on 1.html, 2.html, 3.html, 4.html
@@ -94,29 +95,32 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 
 
 
+UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modify/make changes)--->MODIFIED---(stage again)---->STAGED----(commit)---->UNMODIFIED
 
 
+1. To Stage a file/Add a file command:
+        git add index.html
 
+2. To check Status 
+        git status
+        (staged files shows in green area)
+        (it needs to be committed atleast once)
 
+3. To commit command:
+        git commit
+        (now a vib editor will be opened)
+        type- Initial commit                    //this is a message i've given this change source, 
+        To exit this vib editor-       
+                        Press Esc
+                        Type ":wq" in the INSERT section 
 
+4. To create blank files
+        touch hello.html
 
+5. To add all files in the staging area togehter:
+        git add -A
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+6. 
 
 
 
