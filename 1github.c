@@ -126,7 +126,7 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
 6. Shortcut to Commit (instead of using esc :wq):
-        git commit -m "Added more htmls"
+        git commit -m "write your comment to this edit here"
         (this can be used after initial commit)
 
 
@@ -139,6 +139,16 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         
 9. To recover all last edit again
         git checkout -f
+            this shows you 
+                Author name & mail
+                Date of modification
+                Comment left by the author
+            example:
+                Author: Harry <harry6@gmail.com>
+                Date:   Wed Jan 26 15:58:03 2022 +0530
+                        hello im the comment
+
+            
 
 
 
