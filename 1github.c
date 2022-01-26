@@ -117,8 +117,13 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 4. To create blank files
         touch hello.html
 
-5. To add all files in the staging area togehter:
+5. To add ALL files in the staging area AT ONCE:
         git add -A
+
+
+Now if you edit any of these tracked files the git status will show it under "MODIFIED: file"
+hence a modified file needs to be staged and committed again!
+
 
 6. 
 
