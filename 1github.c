@@ -174,7 +174,7 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
 13. To COMMIT unstaged file directly without staging it
-        git commit -a -m
+        git commit -a -m "enter your comment"
                 STAGING a file also has benefits like you can keep a backup before actually saving it the server///You get 4 areas to work on:
                         Working area                    : yaha bindaas kaam karo
                         Modified file/Unstaged file     : kaam ko bass save karne par vo modified kehlata hai
@@ -187,7 +187,50 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 ptr: You can check a Staged file to previous edit using the compare command git diff -- staged 
         
 
-14. To 
+14. To delete a file commited
+        
+        touch waste.html
+        git add -A
+        git commit -a -m "Adding Waste"
+
+        git rm name.exe                         //removes file totally from working directory and git's staging area
+        git rm --cached name.exe                //Brings file from Staged area to Untracked area, so now you have to stage and commit this file again
+
+15. To check all the files present in this folder
+        ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
