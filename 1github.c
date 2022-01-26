@@ -199,7 +199,8 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 15. To check all the files present in this folder
         ls
 
-16. To
+16. To get status of ONLY MODIFIED FILE (insimplified form)
+        get status -s
 
 
 
