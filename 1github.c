@@ -134,9 +134,11 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         clear
 
 8. To recover last edit
-        git checkout
+        git checkout name.exe
         (this will match your working directory ko last commit)
         
+9. To recover all last edit again
+        git checkout -f
 
 
 
