@@ -137,8 +137,11 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         git checkout name.exe
         (this will match your working directory ko last commit)
         
-9. To recover all last edit again
+9. To recover last edit of all the files in this folder again
         git checkout -f
+
+10. To check logs of all previous edits done
+        git log
             this shows you 
                 Author name & mail
                 Date of modification
@@ -147,6 +150,9 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 Author: Harry <harry6@gmail.com>
                 Date:   Wed Jan 26 15:58:03 2022 +0530
                         hello im the comment
+        git log -p -5
+            so this shows you only last 5 edit logs
+            
 
             
 
