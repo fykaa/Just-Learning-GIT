@@ -166,10 +166,13 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         IF YOU STAGE THE FILE(even without commit) git diff won't show anything
         because this command shows CHANGES IN UNSTAGED FILES
     git diff compares your WORKING TREE to Staging Area
-        git diff --stage
+        
+12. To check changes in a Staged file
+        git diff -- staged
         USE THIS COMMAND TO COMPARE "WORKING TREE TO STAGING AREA"
 
-12. To COMMIT unstaged file directly without staging it
+
+13. To COMMIT unstaged file directly without staging it
         git commit -m
                 STAGING a file also has benefits like you can keep a backup before actually saving it the server///You get 4 areas to work on:
                         Working area                    : yaha bindaas kaam karo
@@ -180,10 +183,10 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 ptr: After committing there's no way back, you can only check logs using git log
                 ptr: After staging you can still retrieve committed edit using git checkout command
                 ptr: You can checkout an Unstaged/ Modified files to previous edit
-                ptr: You cannot checkout an Staged file to previous edit
+                ptr: You can check a Staged file to previous edit using the compare command git diff -- staged 
         
 
-
+abcdedghijklmnopqrstuvwxyz
 
 
 
