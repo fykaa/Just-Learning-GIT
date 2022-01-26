@@ -1,7 +1,1 @@
-#include<stdio.h>
-
-int main()
-{
-    
-    return 0;
-}
+hello ji kaise ho
