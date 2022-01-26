@@ -1,1 +1,3 @@
-1github.c
+/mylogs.log
+*.log
+*.c

@@ -241,16 +241,7 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
         1. hello.log    //ignores all the hello.log named files in the entire depository(file)
         2. /hello.log   //ignores hello.log files only in the file where .gitignore is present!
         3. *.log        //ignored ALL the files with extension .log
-
-
-
-
-hello ji
-
-
-
-
-
+        4. foldername/  //ignores the DIRECTORY/ folder named ke andr ke saare files
 
 
 
