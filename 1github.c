@@ -97,8 +97,9 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 
 2. To check Status 
         git status
-        (staged files shows in green area)
-        (it needs to be committed atleast once)
+        (staged files shows in green text)--->it needs to be committed atleast
+        (unstaged files shows in red code)--->can't be committed without staging
+
 
 3. To commit command:
         git commit
@@ -173,20 +174,20 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
 13. To COMMIT unstaged file directly without staging it
-        git commit -m
+        git commit -a -m
                 STAGING a file also has benefits like you can keep a backup before actually saving it the server///You get 4 areas to work on:
                         Working area                    : yaha bindaas kaam karo
                         Modified file/Unstaged file     : kaam ko bass save karne par vo modified kehlata hai
                         Staged file                     : kaam ko stage kardo agar you feel itna kaam hogya hai
                         Commited file                   : commit only if you're totally sure poora kaam khatam hogaya
 
-                ptr: After committing there's no way back, you can only check logs using git log
+                ptr: After committing there's no way back, you can only check logs using git log 
                 ptr: After staging you can still retrieve committed edit using git checkout command
                 ptr: You can checkout an Unstaged/ Modified files to previous edit
                 ptr: You can check a Staged file to previous edit using the compare command git diff -- staged 
         
 
-abcdedghijklmnopqrstuvwxyz
+14. To 
 
 
 
