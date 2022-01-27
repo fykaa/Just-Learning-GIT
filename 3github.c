@@ -27,7 +27,8 @@ COMMAND to PUSH 'master' branch in 'origin' repository
     git push 
     (here previous branch mein push hojayega)
 
-
+COMMAND to remove access to a remote repository
+    git remote rm origin
 
 GIT CLONE
     copy url from github someones existing library
