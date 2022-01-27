@@ -4,7 +4,7 @@ On GitBash terminal you can run Python , C lang etc like in VSC
 
 Step1: Go to folder GITHUB ---right click---Select GITBASH here
         gitbash is a terminal. This has Commandline, ise use karne se hamare haath mein zyada control rahega 
-        gitGUI , we avoiding using it because Commandline nahi hai
+        gitGUI , we avoiding using it because isme Commandline nahi hai
 
 Step2: LETS CONFIGURE OUR GIT PAGE 
         type ---> git config --global user.name Lillfiah
@@ -51,7 +51,7 @@ Untracked       Unmodified      Modified        Staged
                 >--edit the file--->
                                     >-stage the file->
 <---remove thefile-----<
-                     <---------------commit----------<
+                    M<---------------commit----------<
 
 
 UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modify/make changes)--->MODIFIED---(stage again)---->STAGED----(commit)---->UNMODIFIED
@@ -68,7 +68,7 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 2. Staging area 
         -THIS IS MAIDAAN
         -Staging area (pose mein khade hona), Commit hona(snapshot /photo khich jana)
-        - yaha vo cheezein daalte hai jo COMMIT hojayega
+        - yaha vo cheezein daalte hai jo COMMIT hojayega soon in future
                 - like we'll commit "index.html"
         Lets say you worked on 1.html, 2.html, 3.html, 4.html
         Now that if you've completed working on  1 and 2, you Staged these files and commit them, and because you're not sure about 3 and 4,  you'll not stage this 
@@ -86,7 +86,7 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
         once you modify it , you'll have to STAGE IT Again
 
         so firse vo stage area mein aajayegi
-        and firse use commit karna padega
+        and firse use commit karna padega so it goes back to UNMODIFIED zone(committed zone)
 
 
 UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modify/make changes)--->MODIFIED---(stage again)---->STAGED----(commit)---->UNMODIFIED
@@ -104,7 +104,8 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 3. To commit command:
         git commit
         (now a vim editor will be opened)
-        type- Initial commit                    //this is a message i've given this change source, 
+        (a commit command totally saves a staged file to the server, remember there's no way back from a committed file)
+        type- a comment above             //this is a message i've given this change source, 
         To exit this vim editor-       
                         Press Esc
                         Type ":wq" in the INSERT section 
@@ -115,13 +116,12 @@ UNTRACKED FILE--(add file)---> STAGED---(commit the file)--->UNMODIFIED----(modi
 5. To add ALL files in the staging area AT ONCE:
         git add -A
 
-
 Now if you edit any of these tracked files, the git status will show it under "MODIFIED: file"
 hence a modified file needs to be STAGED and COMMITTED again!!!!
 
 
 6. Shortcut to Commit (instead of using esc :wq):
-        git commit -m "write your comment to this edit here"
+        git commit -m "write your comment jere"
         (this can be used after initial commit)
 
 
@@ -142,7 +142,7 @@ hence a modified file needs to be STAGED and COMMITTED again!!!!
                 Date of modification
                 Comment left by the author
             example:
-                Author: Harry <harry6@gmail.com>
+                Author: faeka <faeka6@gmail.com>
                 Date:   Wed Jan 26 15:58:03 2022 +0530
                         hello im the comment
         git log -p -5
