@@ -36,3 +36,21 @@ GIT CLONE
         (like here i cloned a repo from github named cpp , so this created a folder named cpp)
 
 */
+
+
+
+/*
+
+SO GUYS!
+
+WE GOT ACCESS TO THESE COOL FEATURES USING GITHUB AND GIT !!!
+
+everytime you make a change in the file in your local pc master branch you can:
+Edit it and just save it (this just modifies)                                           ctrl+s on the file
+Edit it and add it to staged (not committed yet)                                        git add -A
+Edit it and commit it (now you can just push it to remote repository)                   git commit -a -m ""
+Edit it IN DIFFERENT BRANCHES (and then merge it if you feel the edit is worthy)        git checkout -b newbr
+Edit it in the remote repository itself                                                 on github
+If you edit it in local repository, AFTER commiting push the file to remote server by:  git push -u origin master
+    here origin is name of remote repo
+    here master is name of local branch
