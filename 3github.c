@@ -23,8 +23,16 @@ COMMAND to PUSH 'master' branch in 'origin' repository
     (To gain read/write access in a private repo of github you need to change settings)
     
     git push -u origin master
+    (here we can specify ki iss branch mein hi push karna hai ye command)
+    git push 
+    (here previous branch mein push hojayega)
 
 
 
-    
+GIT CLONE
+    copy url from github someones existing library
+    git clone url foldername
+    (if you don'T give foldername it will clone it to a folder named as the URL's REPOSITORY'S name)
+        (like here i cloned a repo from github named cpp , so this created a folder named cpp)
+
 */
